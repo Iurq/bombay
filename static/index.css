@@ -48,7 +48,7 @@
 body {
     background-image: url("thisimage.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 200%;
+    background-size: 100% 500%;
     animation-name: background;
     animation-duration: 100s;
     animation-iteration-count: infinite;
