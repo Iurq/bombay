@@ -4,7 +4,7 @@
         background-image: url("thisimage.jpg");
     }
     10%{
-        color: white;
+        color: black;
         background-image: url("food1.jpg");
     }
 
@@ -13,7 +13,7 @@
         background-image: url("food2.jpg");
     }
     30%{
-        color: white;
+        color: black;
         background-image: url("food3.jpg");
     }
     40%{
@@ -33,11 +33,11 @@
         background-image: url("food7.jpg");
     }
     80%{
-        color: white;
+        color: black;
         background-image: url("food8.jpg");
     }
     90% {
-        color: white;
+        color: red;
         background-image: url("food9.jpg");
     }
     100% {
@@ -47,8 +47,8 @@
     }
 body {
     background-image: url("thisimage.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 500%;
+    background-repeat: repeat;
+    background-size: 100%;
     animation-name: background;
     animation-duration: 100s;
     animation-iteration-count: infinite;
